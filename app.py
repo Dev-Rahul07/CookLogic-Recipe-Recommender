@@ -23,7 +23,7 @@ def search_Hist():
 st.title("🥘 CookLogic || smart recipes, logical cooking")
 
 
-groq_api_key = ""
+groq_api_key = " create your own api key and use groq.."
 
 def generate_recommendations(input_text):
     try:
@@ -85,5 +85,6 @@ if submitted:
 
             
 search_Hist()
+
 
 
